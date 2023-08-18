@@ -1,0 +1,35 @@
+<！DOCTYPE html >
+<超文本标记语言>
+  <头>
+	<元字符集="utf-8" 名字="viewport" 内容="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<标题>WebCat</标题>
+  </头>
+  <身体>	
+  <！DOCTYPE html ><超文本标记语言><头><元字符集="UTF-8">
+<元内容="always" 名字="referrer" />
+<剧本>
+尝试 {
+    V á r list = JSON.parse(localStorage.getItem("tc_time_log") || "[]");
+    list.push({
+        t: +new Date,
+        b: parseInt("10"),
+        w: (+new Date) - parseInt(localStorage.getItem("tc_time_start") || "0")
+    });
+    localStorage.setItem("tc_time_log", JSON.stringify(list));
+    localStorage.removeItem("tc_time_start");
+} catch (e) {
+}
+
+window.location.replace("https://cdn.198434.com/cli/H5/sheep2sheepkun/");
+</剧本>
+<noscript>
+<元http-equiv="refresh" 内容="0; url=https://cdn.198434.com/cli/H5/sheep2sheepkun/" />
+</noscript>
+</头>
+<身体>
+</身体>
+</超文本标记语言>
+
+
+  </身体>
+</超文本标记语言>
